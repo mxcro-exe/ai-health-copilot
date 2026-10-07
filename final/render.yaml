@@ -26,7 +26,6 @@ services:
   - type: web
     name: health-copilot-frontend
     runtime: static
-    plan: free
     rootDir: final/naveen/hi-main/hi-main/frontend
     buildCommand: npm install && npm run build
     staticPublishPath: dist
